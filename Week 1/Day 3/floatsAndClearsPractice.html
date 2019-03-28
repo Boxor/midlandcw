@@ -1,0 +1,154 @@
+<!-- Use the image titled 'floatsAndClearsPractice.jpg' as a reference point and style this page to look like the image 
+    The links at the top should have an on hover for the non active link. The side links (the fish types) should also highlight on hover-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Practice For Floats And Clears</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+      
+    <style>
+        
+        body{
+            margin: 0;
+        }
+        
+        header{
+            position: relative;
+            height: 12vh;
+            background-color: rgb(125,125,125);
+        }
+        
+        .logo{
+            height: 12vh;
+            float: left;
+        }
+        
+        #headh1{
+            display: inline-block;
+            position: relative;
+            color: white;
+            font-size: 40px;
+            bottom: 9px;
+            float: right;
+            margin-right: 4vw;
+            margin-bottom: 0;
+            text-shadow: 2px 2px black;
+        }
+        
+        nav{
+            margin-top: 1vh;
+            margin-bottom: 6vh;
+        }
+        
+        .navDiv{
+            width: 24.5%;
+            float: left;
+            text-align: center;
+            background-color: rgb(225,225,225);
+        }
+        
+        .current{
+            background-color: rgb(125,125,125);
+        }
+        
+        .navFirst{
+            margin-left: 1%;
+        }
+        
+        aside{
+            width: 30%;
+        }
+        
+        h3{
+            text-align: center;
+        }
+        
+    </style>
+          
+
+      
+</head>
+<body>
+    <div>
+        <header>
+            <div>
+                <img
+                     class="logo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bear_Alaska_%283%29.jpg/1280px-Bear_Alaska_%283%29.jpg"
+                />
+                <h1 id="headh1">Hungry Bear Fisheries</h1>
+            </div>
+        </header>
+      <nav>
+        <div class="navDiv current navFirst"><a href="#">Our Fish</a></div>
+        <div class="navDiv"><a href="#">Conservation</a></div>
+        <div class="navDiv"><a href="#">About Us</a></div>
+        <div class="navDiv"><a href="#">Contact Us</a></div>
+      </nav>
+        <aside>
+        <h3>Currently Available</h3>
+        <ul>
+          <li>Atlantic Salmon</li>
+          <li>Coho Salmon</li>
+          <li>Chinook Salmon</li>
+          <li>Sockeye Salmon</li>
+          <li>Pink Salmon</li>
+          <li>Rainbow Trout</li>
+        </ul>
+        </aside>
+      <div>
+        <p>
+          <img
+            
+            src="http://espacepourlavie.ca/sites/espacepourlavie.ca/files/styles/gal-photo-large/public/salmo-salar-a028_p6_0.jpg?itok=ClZ2RwBd"
+          />
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </div>
+      <div>
+        <p>
+          <img
+            
+            src="http://caltrout.org/wp-content/uploads/2017/05/coho-slider.png"
+          />
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </div>
+      <div>
+        <p>
+          <img
+            
+            src="http://oceana.org/sites/default/files/styles/lightbox_full/public/chinook_salmon.jpg?itok=SlAYpTyq"
+          />
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </div>
+      <footer>
+        <div>
+          <h1>Only The Freshest Fish Around</h1>
+        </div>
+      </footer>
+    </div>
+    <!-- end pageContainer -->
+</body>
+</html>
