@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+        
+        *{
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        
+        header, footer{
+            background-color: black;
+            height: 10vh;
+        }
+        
+        div{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        container{
+            display: inline-block;
+        }
+        
+        .blue, .red{
+            border: 1px solid black;
+            margin: 3px;
+        }
+        
+        #blueCon{
+            width: 70%;
+        }
+        
+        .blue{
+            background-color: blue;
+            flex-basis: 300px;
+            min-height: 17vh;
+        }
+        
+        .red{
+            background-color: red;
+            flex-basis: 400px;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    
+    <header>HEADER</header>
+    
+    <main>
+        
+        <div class="container" id="blueCon">
+            <div class="blue" style="order: 1">1</div>
+            <div class="blue" style="order: 3">2</div>
+            <div class="blue" style="order: 6">3</div>
+            <div class="blue" style="order: 5">4</div>
+            <div class="blue" style="order: 4">5</div>
+            <div class="blue" style="order: 2">6</div>
+        </div>
+        
+        <div class="container" id="redCon">
+            <div class="red" style="order: 3">1</div>
+            <div class="red" style="order: 1">2</div>
+            <div class="red" style="order: 2">3</div>
+        </div>
+        
+    </main>
+    
+    <footer>Footer</footer>
+    
+</body>
+</html>
