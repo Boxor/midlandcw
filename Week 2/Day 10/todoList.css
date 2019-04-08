@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+main{
+    height: 100%;
+}
+
+container{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#leftSide{
+    float: left;
+    background-color: wheat;
+}
+
+#rightSide{
+    float: right;
+    background-color: gray;
+}
+
+.taskStyle{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+}
