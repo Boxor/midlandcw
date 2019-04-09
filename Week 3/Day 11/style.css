@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    height: 82px;
+    background-color: rgb(225,0,0);
+}
+
+a{
+    display: block;
+    float: left;
+    width: calc(100%/3 - 2px);
+    text-align: center;
+    height: 53px;
+    padding-top: 27px;
+    border: 1px solid rgb(0,0,0);
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+.active{
+    background-color: rgb(100,100,100);
+}
+
+header{
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#mainHome{
+    display: block;
+}
+
+#miles{
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+p{
+    float: left;
+    width: 70%;
+    text-align: justify;
+}
+
+#moreInfo{
+    margin-top: 50px;
+    clear: left;
+    width: 100%;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    margin-top: 35%;
+    border-top: 3px solid black;
+    text-align: center;
+}
+
+.footerStuff{
+    text-align: center;
+    margin-left: 16%;
+}
+
+
+
+@media (max-width: 1080px){
+    
+    #miles{
+        float: none;
+        width: 90%;
+        margin: 5%;
+    }
+    
+    p{
+        width: 100%;
+    }
+    
+    .footerStuff{
+        margin-left: 0%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

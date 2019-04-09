@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Query Practice</title>
+
+    <style>
+        
+        *{
+            margin: 0;
+        }
+        
+        div{
+            color: white;
+        }
+        
+        .containerA{
+            background-color: blue;
+        }
+        
+        .containerB{
+            background-color: orange;
+        }
+        
+        .a, .b{
+            background-color: red;
+            display: inline-block;
+            height: 20vh;
+            margin: 5px;
+        }
+        
+        .a{
+            width: 44vw;
+        }
+        
+        .b{
+            width: 28vw;
+        }
+        
+        
+        
+        @media (min-width: 600px){
+            
+            .a, .b{
+                margin: 6px;
+                width: 30vw;
+            }
+            
+        }
+        
+/*
+        @media (min-width: 800px){
+            
+            
+            
+        }
+*/
+        
+        @media (min-width: 1200px){
+            
+/*
+            div{
+                display: inline-block;
+            }
+*/
+            
+            .containerA{
+                float: left;
+                width: 70vw;
+            }
+            
+            .containerB{
+                float: left;
+                width: 30vw;
+            }
+            
+            .a{
+                width: 16vw;
+            }
+            
+            .b{
+                width: 29vw;
+            }
+            
+        }
+        
+        /*MEDIA QUERIES*/
+         /*Follow the guidelines on the pictures in this folder to restyle the page at the appropriate breakpoints do this without the use of flex*/
+
+    </style>
+</head>
+<body>
+<div class="containerA">
+    <div class="a">A</div>
+    <div class="a">A</div>
+    <div class="a">A</div>
+    <div class="a">A</div>
+    <div class="a">A</div>
+    <div class="a">A</div>
+    <div class="a">A</div>
+    <div class="a">A</div>
+    <div class="a">A</div>
+</div>
+
+
+<div class="containerB">
+    <div class="b">B</div>
+    <div class="b">B</div>
+    <div class="b">B</div>
+</div>
+
+</body>
+</html>
